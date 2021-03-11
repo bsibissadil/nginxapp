@@ -15,8 +15,8 @@ spec:
         app: argo_app
     spec:
       containers:
-      - name: php-apache-spesys-1-1
-        image: kmaster:31320/php_apache_spesys:1.1
+      - name: php-apache-spesys-1-2
+        image: kmaster:31320/php_apache_spesys:1.2
         ports:
         - containerPort: 80
 
